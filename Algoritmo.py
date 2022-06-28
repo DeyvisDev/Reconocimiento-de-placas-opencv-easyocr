@@ -9,7 +9,7 @@ reader = easyocr.Reader(["es","en"], gpu = True)
 
 
 placa = []
-image = cv2.imread("a2.jpg",1)
+image = cv2.imread("a1.jpg",1)
 #cv2.imshow('placaIn', image)
 #cambio de color a una escala de grises, y difeminamos
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
