@@ -4,7 +4,9 @@ Realiza el reconocimiento de los numeros de placas vehiculares, con las libreria
 -Version de python 3.8.6
 
 -Instalacion de librerias
+
 pip install opencv-python
+
 pip install easyocr
 
 Requiere gpu dedicada, en caso de no contar una, cambiar gpu=True a gpu=False
